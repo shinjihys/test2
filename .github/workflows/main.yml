@@ -1,7 +1,8 @@
 name: learn-github-actions
-on: [commit]
+on: [push]
 jobs:
-check-bats-version:
-runs-on: ubuntu-latest
-steps:
-- run: echo "Hello World"
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "this is pen"
+
